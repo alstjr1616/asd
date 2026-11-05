@@ -1,3 +1,13 @@
 data/raw/
 __pycache__/
 .venv/
+
+# 대용량 원본 데이터
+data/raw/
+
+# 전체 기간 집계 중 생성된 임시 DB
+data/processed/_tashu_all_build.sqlite*
+
+# 파이썬 임시 파일
+__pycache__/
+*.pyc
